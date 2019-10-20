@@ -1,4 +1,4 @@
-<?php
+<?
 /**
  *
  * @Name : PHPTinyCms
@@ -10,4 +10,13 @@
  *
  **/
 include "_init.php";
+$posts=$db->selects("post");
 ?>
+<? foreach($posts as $post) { ?>
+<h1><a href="single.php?id=<?= $post["id"] ?>"><?= $post["subject"] ?></a></h1>
+<p><?= $post["text"] ?></p>
+<br>
+<a href="single.php?id=<?= $post["id"] ?>">READ MORE</a>
+<hr>
+<? } ?>
+

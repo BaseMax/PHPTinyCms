@@ -1,4 +1,4 @@
-<?php
+<?
 /**
  *
  * @Name : PHPTinyCms
@@ -10,4 +10,13 @@
  *
  **/
 include "_init.php";
+if(!isset($_GET['id'])) {
+    exit();
+}
+$id=$_GET['id'];
+$post=$db->select("post", ["id"=>$id]);
 ?>
+<h1><a href="single.php?id=<?= $post["id"] ?>"><?= $post["subject"] ?></a></h1>
+<p><?= $post["text"] ?></p>
+<p><?= $post["texts"] ?></p>
+<br>
