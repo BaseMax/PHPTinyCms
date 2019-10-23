@@ -33,6 +33,8 @@ $posts=$db->selects("post");
 <td>
 <a href="../single.php?id=<?= $post["id"] ?>">READ</a>
 &nbsp;&nbsp;
+<a href="post_edit.php?id=<?= $post["id"] ?>">EDIT</a>
+&nbsp;&nbsp;
 <a href="post_delete.php?id=<?= $post["id"] ?>">DELETE</a>
 </td>
 </tr>
