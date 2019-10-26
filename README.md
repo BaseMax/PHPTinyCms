@@ -12,6 +12,7 @@ A mini, tiny Content-Management-System (CMS) for general purpose and using for s
 
 ## Panel pages, Admin pages
 
+- [x] simply login
 - [x] list post
 - [x] insert post
 - [x] edit post
