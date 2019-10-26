@@ -33,6 +33,7 @@ There are many features to be create in **PHPTinyCms** project:
 - Category page
 - Tag page
 - Uploading image for post
+- Using better data-type for database columns
 - Anything you think, ...
 
 ---------
