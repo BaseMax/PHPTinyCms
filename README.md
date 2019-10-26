@@ -1,10 +1,10 @@
 # PHP Tiny Cms
 
-PHPTinyCms is a mini, tiny Content-Management-System.
+**PHPTinyCms** is a mini, tiny Content-Management-System.
 
 # PHP Tiny Content Management System
 
-PHPTinyCms is a mini, tiny CMS for general purpose and using for sites based on PHP.
+**PHPTinyCms** is a mini, tiny CMS for general purpose and using for sites based on PHP.
 
 ## PHPTinyCms Site pages
 
@@ -19,6 +19,10 @@ PHPTinyCms is a mini, tiny CMS for general purpose and using for sites based on 
 - [x] insert post
 - [x] edit post
 - [x] delete post
+
+## PHPTinyCms Database
+
+You can easily download `.sql` file of **PHPTinyCms** database at [here](database.sql).
 
 ## TODO PHPTinyCms
 
