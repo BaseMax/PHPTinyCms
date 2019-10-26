@@ -1,22 +1,35 @@
 # PHP Tiny Cms
 
+PHPTinyCms is a mini, tiny Content-Management-System.
+
 # PHP Tiny Content Management System
 
-A mini, tiny Content-Management-System (CMS) for general purpose and using for sites based on PHP.
+PHPTinyCms is a mini, tiny CMS for general purpose and using for sites based on PHP.
 
-## Site pages
+## PHPTinyCms Site pages
 
 - [x] main page
 - [x] single page
 - [ ] search page
 
-## Panel pages, Admin pages
+## PHPTinyCms Panel pages, Admin pages
 
 - [x] simply login
 - [x] list post
 - [x] insert post
 - [x] edit post
 - [x] delete post
+
+## TODO PHPTinyCms
+
+There are many features to be create in **PHPTinyCms** project:
+
+- Secure login, hash, cookie, user database
+- Search page
+- Category page
+- Tag page
+- Uploading image for post
+- Anything you think, ...
 
 ---------
 
