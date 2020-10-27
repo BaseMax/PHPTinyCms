@@ -14,7 +14,7 @@ session_start();
 if(isset($_POST['submit'])) {
 $user=$_POST['user'];
 $pass=$_POST['pass'];
-if($user == "rez" && $pass == "0c45dg4ffg123vc1b23456d74dsdfsdf") {
+if($user === "rez" && $pass === "0c45dg4ffg123vc1b23456d74dsdfsdf") {
     // print_r($_POST);
     $_SESSION['login']=true;
     header("Location: index.php");
