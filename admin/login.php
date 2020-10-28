@@ -11,7 +11,7 @@
  **/
 ob_start();
 session_start();
-if(isset($_POST['submit'])) {
+if(isset($_POST['submit'], $_POST['user'], $_POST['pass'])) {
 $user=$_POST['user'];
 $pass=$_POST['pass'];
 if($user === "rez" && $pass === "0c45dg4ffg123vc1b23456d74dsdfsdf") {
@@ -23,10 +23,10 @@ if($user === "rez" && $pass === "0c45dg4ffg123vc1b23456d74dsdfsdf") {
 ?>
 <form method="POST">
 <b>User</b> :
-<input name="user">
+<input name="user" required>
 <br>
 <b>Pass</b> :
-<input name="pass" type="password">
+<input name="pass" type="password" required>
 <br>
 <button name="submit">Send</button>
 </form>
